@@ -1,4 +1,252 @@
-<h1> Saludos, </h1>
-<h2>Desde Machachi</h2>
-<h3>Mi nombre es: René</h3>
-<h4> Estudios: Cursando el PhD en informatica en, Mexico, 2026 </h4>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Luis René Quisaguano</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --bg-color: #f5f6fa;
+            --text-color: #333;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg-color); color: var(--text-color); line-height: 1.6; padding: 20px; }
+        .page { max-width: 1000px; margin: 0 auto; background: #fff; box-shadow: 0 0 15px rgba(0,0,0,0.1); border-radius: 8px; display: flex; flex-wrap: wrap; overflow: hidden; }
+        
+        .header { background: var(--primary-color); color: #fff; width: 100%; padding: 40px 30px; text-align: center; }
+        .header h1 { font-size: 2.2rem; margin-bottom: 5px; }
+        .header h2 { font-size: 1.1rem; font-weight: 300; color: #bdc3c7; margin-bottom: 10px; }
+        .header p { font-size: 0.95rem; margin-bottom: 5px; }
+        
+        .sidebar { background: var(--secondary-color); color: #ecf0f1; width: 33%; padding: 30px; }
+        .main-content { width: 67%; padding: 35px; }
+        
+        h3 { border-bottom: 2px solid var(--accent-color); padding-bottom: 5px; margin-bottom: 20px; color: var(--primary-color); font-size: 1.3rem; text-transform: uppercase; letter-spacing: 1px;}
+        .sidebar h3 { border-bottom-color: #7f8c8d; color: #fff; }
+        
+        /* Sidebar sections */
+        .contact-info, .skills-list, .education-list { margin-bottom: 35px; }
+        .contact-info p, .education-item p { margin-bottom: 10px; font-size: 0.95rem; }
+        .contact-info a { color: #3498db; text-decoration: none; }
+        .contact-info strong { display: block; color: #bdc3c7; font-size: 0.85rem; margin-top: 15px; text-transform: uppercase; letter-spacing: 0.5px;}
+        .skills-list ul { list-style: none; }
+        .skills-list li { background: rgba(255,255,255,0.1); margin-bottom: 8px; padding: 6px 12px; border-radius: 4px; font-size: 0.95rem; border-left: 3px solid var(--accent-color); }
+        
+        .education-item { margin-bottom: 20px; }
+        .education-item h4 { font-size: 1rem; color: #fff; margin-bottom: 3px; }
+        .education-item p { color: #bdc3c7; font-size: 0.85rem; }
+        
+        /* Main sections */
+        .section { margin-bottom: 35px; }
+        .profile-text { text-align: justify; font-size: 0.95rem; }
+        
+        .job, .course, .award { margin-bottom: 25px; }
+        .job h4, .course h4, .award h4 { font-size: 1.15rem; color: var(--primary-color); margin-bottom: 3px; }
+        .job .date-location, .course .date, .award .date { font-size: 0.85rem; color: #7f8c8d; font-style: italic; display: block; margin-bottom: 10px; }
+        .job ul { padding-left: 20px; font-size: 0.95rem; }
+        .job ul li { margin-bottom: 6px; }
+        
+        .references { display: flex; flex-wrap: wrap; gap: 20px; }
+        .reference-item { width: 45%; }
+        .reference-item h4 { font-size: 1rem; color: var(--primary-color); margin-bottom: 5px; }
+        .reference-item p { font-size: 0.9rem; line-height: 1.4; color: #555; }
+        
+        .signature { margin-top: 60px; text-align: center; }
+        .signature p { margin-top: 5px; font-size: 0.95rem; }
+        .signature .name { font-weight: bold; margin-top: 15px; color: var(--primary-color); }
+        
+        @media (max-width: 768px) {
+            .sidebar, .main-content { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- Cabecera -->
+        <header class="header">
+            <h1>LUIS RENÉ QUISAGUANO COLLAGUAZO</h1>
+            <h2>MÁSTER EN SISTEMAS DE INFORMACIÓN / INGENIERO EN SISTEMAS COMPUTACIONALES</h2>
+            <p>DNI: 1721895181 | 32 AÑOS - ECUATORIANO - SOLTERO</p>
+        </header>
+        
+        <!-- Columna Izquierda -->
+        <aside class="sidebar">
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                
+                <strong>Email</strong>
+                <p>luis.quisaguano1@utc.edu.ec<br>renequisaguano@gmail.com</p>
+                
+                <strong>Teléfono</strong>
+                <p>+593 998820095<br>+593 22309 164</p>
+                
+                <strong>Dirección</strong>
+                <p>Machachi, Calle Tiberio y San Roque Nro. 078</p>
+                
+                <strong>Redes Sociales</strong>
+                <p>@luis.quisaguano<br>@QuisaguanoRene</p>
+            </div>
+            
+            <div class="skills-list">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Resolución de Problemas</li>
+                    <li>Adaptabilidad</li>
+                    <li>Sólida Colaboración</li>
+                    <li>Ética de Trabajo</li>
+                    <li>Gestión del Tiempo</li>
+                    <li>Pensamiento Crítico</li>
+                    <li>Trabajo bajo Presión</li>
+                    <li>Liderazgo</li>
+                </ul>
+            </div>
+            
+            <div class="education-list">
+                <h3>Educación</h3>
+                <div class="education-item">
+                    <h4>MÁSTER EN SISTEMAS DE INFORMACIÓN</h4>
+                    <p>Universidad Técnica de Cotopaxi, Latacunga<br><em>2018 - 2020</em></p>
+                </div>
+                <div class="education-item">
+                    <h4>INGENIERO EN SISTEMAS COMPUTACIONALES</h4>
+                    <p>Universidad Técnica de Cotopaxi, Latacunga<br><em>2011 - 2016</em></p>
+                </div>
+            </div>
+        </aside>
+        
+        <!-- Columna Derecha -->
+        <main class="main-content">
+            <section class="section">
+                <h3>Perfil Profesional</h3>
+                <p class="profile-text">
+                    Tengo experiencia en el campo del desarrollo de sistemas de información, administración de bases de datos, inteligencia de negocios, inteligencia artificial y tecnología en general. Mi educación refleja un enfoque responsable, y poseo la capacidad de trabajar tanto de forma colaborativa en equipo como de manera independiente, demostrando creatividad, iniciativa y puntualidad. Asumo los retos y metas con seriedad, y estoy comprometido con el logro de objetivos. Mi experiencia profesional incluye aproximadamente 3 años como profesor universitario y más de 7 años como consultor de proyectos TI. Durante este tiempo, he participado en el desarrollo de sistemas de información en entornos web, de escritorio y/o móviles, implementando metodologías ágiles y utilizando herramientas como C#, Java, PHP, Python, JavaScript, PostgreSQL, SQL Server, Oracle, MariaDB, Firebase, MongoDB, Hadoop, Apache Spark, Hive, Power BI, Qlik Sense, Tableau, Pentaho, entre otras.
+                </p>
+            </section>
+            
+            <section class="section">
+                <h3>Experiencia Laboral</h3>
+                
+                <div class="job">
+                    <h4>Profesor Universitario</h4>
+                    <span class="date-location">Universidad Técnica de Cotopaxi | Abril 2021 - Presente</span>
+                    <ul>
+                        <li><strong>Maestría en Ciencia de Datos (Abril 2024 - Presente):</strong> Módulos de Machine Learning, Visualización de la Información.</li>
+                        <li><strong>Ingeniería en Sistemas de Información (Abril 2021 - Presente):</strong> Materias de Sistemas de Información para Inteligencia de Negocios, Desarrollo de Aplicaciones Móviles, Desarrollo de Aplicaciones Web, Tecnologías e Innovación para el Desarrollo Local, Sistemas de Información Geográfica (GIS).</li>
+                    </ul>
+                </div>
+                
+                <div class="job">
+                    <h4>Director de Tecnología (CTO)</h4>
+                    <span class="date-location">Evolution Soft | Enero 2018 - Presente</span>
+                    <ul>
+                        <li>Cofundador de Evolution Soft, empresa dedicada a la innovación y desarrollo de soluciones tecnológicas.</li>
+                        <li>Gestión de Proyectos Tecnológicos para empresas públicas y privadas.</li>
+                        <li>Implementación de proyectos de innovación con inteligencia de negocios.</li>
+                        <li>Desarrollo de Sistemas Web, de Escritorio, Móviles e Híbridos.</li>
+                        <li>Gestión de Infraestructura de TI y Director en Múltiples Proyectos.</li>
+                    </ul>
+                </div>
+                
+                <div class="job">
+                    <h4>Analista de Tecnologías de la Información y Comunicación</h4>
+                    <span class="date-location">Gobierno Municipal de Mejía | Marzo 2020 – Marzo 2021</span>
+                    <ul>
+                        <li>Planificación Estratégica y Diseño de Arquitectura.</li>
+                        <li>Gestión de Proyectos y Resolución de Problemas.</li>
+                        <li>Implementación de Tecnologías Emergentes y Seguridad de la Información.</li>
+                    </ul>
+                </div>
+                
+                <div class="job">
+                    <h4>Director Ejecutivo (CEO)</h4>
+                    <span class="date-location">Rebian Software | Marzo 2016 – Enero 2018</span>
+                    <ul>
+                        <li>Fundador de Rebian Software.</li>
+                        <li>Dirección Estratégica, Toma de Decisiones y Representación de la Empresa.</li>
+                        <li>Gestión de Equipos de Liderazgo y Desarrollo de Software.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h3>Seminarios y Cursos</h3>
+                <div class="course">
+                    <h4>Buscador de Información y Comunicación</h4>
+                    <span class="date">Fundación Carlos Slim – 40 horas | Febrero, 2021</span>
+                </div>
+                <div class="course">
+                    <h4>II Encuentro de Investigación en Educación Superior</h4>
+                    <span class="date">Instituto Superior Tecnológico Pelileo – 20 horas | Diciembre, 2020</span>
+                </div>
+                <div class="course">
+                    <h4>Uso de Herramientas Digitales para Facilitar la Educación Online</h4>
+                    <span class="date">Gobierno Municipal de Mejía – 48 horas | Octubre, 2020</span>
+                </div>
+                <div class="course">
+                    <h4>Certificaciones Inbound & HubSpot Sales Software</h4>
+                    <span class="date">HubSpot Academy – 80 horas (Total) | Septiembre, 2019</span>
+                </div>
+                <div class="course">
+                    <h4>Curso de Programación de Dispositivos Móviles</h4>
+                    <span class="date">Platzi – 40 horas | Julio, 2019</span>
+                </div>
+                <div class="course">
+                    <h4>Plataformas de Integración, Despliegue Continuo e Infraestructura como Código</h4>
+                    <span class="date">BDOT Automation Tools – 8 horas | Mayo, 2018</span>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h3>Reconocimientos y Participaciones</h3>
+                <div class="award">
+                    <h4>Premio Ciencia y Tecnología</h4>
+                    <span class="date">Centro de Desarrollo Tecnológico e Innovación de Mejía | Diciembre 2022</span>
+                </div>
+                <div class="award">
+                    <h4>Beca Institucional por Excelencia Académica</h4>
+                    <span class="date">Universidad Técnica de Cotopaxi | Mejor Puntaje del Programa de Maestría | Mayo 2019</span>
+                </div>
+                <div class="award">
+                    <h4>III Concurso Nacional de Desarrollo de Software, IBEE 2015</h4>
+                    <span class="date">Escuela Superior Politécnica de Chimborazo | Primer Lugar | Julio 2015</span>
+                </div>
+                <div class="award">
+                    <h4>Miembro de la Asociación de Software Libre del Ecuador (ASLE)</h4>
+                    <span class="date">Miembro activo desde 2014</span>
+                </div>
+                <div class="award">
+                    <h4>Mejor Graduado & Becas por Mérito Académico</h4>
+                    <span class="date">Instituto Superior Tecnológico Aloasí (2009) / UTC (Periodos 2012-2015)</span>
+                </div>
+            </section>
+            
+            <section class="section">
+                <h3>Referencias Personales</h3>
+                <div class="references">
+                    <div class="reference-item">
+                        <h4>Mg. Veronica Tapia</h4>
+                        <p>Directora Académica de la Facultad de Ingeniería y Ciencias Aplicadas<br>Universidad Técnica de Cotopaxi<br>Teléfono: +593 992952383</p>
+                    </div>
+                    <div class="reference-item">
+                        <h4>Dra. Mayra Alban</h4>
+                        <p>Vicerrectora Académica<br>Universidad Técnica de Cotopaxi<br>Teléfono: +593 987773341</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="signature">
+                <p>……………………………………..…………</p>
+                <p class="name">LUIS RENÉ QUISAGUANO COLLAGUAZO</p>
+                <p>DNI: 1721895181</p>
+                <p>Teléfono: +593 998820095</p>
+                <p style="font-size: 0.8rem; margin-top: 10px; color: #7f8c8d;">Firmado electrónicamente</p>
+            </div>
+            
+        </main>
+    </div>
+</body>
+</html>
+
